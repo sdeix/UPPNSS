@@ -8,9 +8,13 @@ return [
    'routeMiddleware' => [
        'auth' => \Middlewares\AuthMiddleware::class,
    ],
-
+   'routeAppMiddleware' => [
+   'trim' => \Middlewares\TrimMiddleware::class,
+],
     'validators' => [
        'required' => \Validators\RequireValidator::class,
        'unique' => \Validators\UniqueValidator::class
-   ]
+   ],
+
+
 ];
