@@ -10,7 +10,10 @@
 <body>
 <header>
    <nav>
-       <a href="<?= app()->route->getUrl('/hello') ?>">Главная</a>
+       <a href="<?= app()->route->getUrl('/books') ?>">Список книг</a>
+       <a href="<?= app()->route->getUrl('/readers') ?>">Список читателей</a>
+       <a href="<?= app()->route->getUrl('/borrowedbooks') ?>">Взятые книги</a>
+       <a href="<?= app()->route->getUrl('/bookhistorys') ?>">История</a>
        <?php
        if (!app()->auth::check()):
            ?>

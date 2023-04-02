@@ -3,7 +3,7 @@
         'name' => 'sdeix/uppnss',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '952bf633b49039ed7e854cc5cbad2acb5d2e033f',
+        'reference' => '4270b464a9daceb32b0ac74d7dc56b5201b6de15',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -129,6 +129,17 @@
             ),
             'dev_requirement' => false,
         ),
+        'nikic/fast-route' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '34128a32009e1b41c4615bcd7d4c39968931e9ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/fast-route',
+            'aliases' => array(
+                0 => '2.0.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'psr/container' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
@@ -160,7 +171,7 @@
         'sdeix/uppnss' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '952bf633b49039ed7e854cc5cbad2acb5d2e033f',
+            'reference' => '4270b464a9daceb32b0ac74d7dc56b5201b6de15',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
