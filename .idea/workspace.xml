@@ -4,14 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b3fbc5-f900-4e3a-b480-5e73dd056bfd" name="Changes" comment="1" />
+    <list default="true" id="a4b3fbc5-f900-4e3a-b480-5e73dd056bfd" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Controller/Site.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Middlewares/AuthMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Middlewares/CSRFMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Middlewares/SpecialCharsMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Middlewares/TrimMiddleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/BookHistorys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Borrowedbooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validators/RequireValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Validators/UniqueValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/path.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Auth/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Auth/IdentityInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Middleware.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Traits/SingletonTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Validator/AbstractValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/Validator/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Src/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layouts/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/bookhistorys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/books.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/borrowedbooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/readers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/site/signup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc" beforeDir="false" afterPath="$PROJECT_DIR$/mvc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/app/Middlewares/SpecialCharsMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/app/Middlewares/SpecialCharsMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/config/path.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/config/path.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvc/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/vendor/composer/installed.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
